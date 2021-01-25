@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cpp-f3-demo WiFi" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-t -pw raspberry -L 3333:127.0.0.1:3333 pi@192.168.0.110 openocd -f rpi1-gpio.cfg -f target/stm32f3x.cfg" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-f3-demo" TARGET_NAME="cpp-f3-demo.elf" CONFIG_NAME="Debug-arm-none-eabi" version="1" RUN_TARGET_PROJECT_NAME="cpp-f3-demo" RUN_TARGET_NAME="cpp-f3-demo.elf">
+    <custom-gdb-server version="1" gdb-connect="tcp::3333" executable="C:\Program Files\PuTTY\plink.exe" warmup-ms="0" download-type="ALWAYS" reset-cmd="monitor reset" reset-after-download="true">
+      <debugger kind="GDB" isBundled="true" />
+    </custom-gdb-server>
+    <method v="2">
+      <option name="CLION.COMPOUND.BUILD" enabled="true" />
+    </method>
+  </configuration>
+</component>
